@@ -1,0 +1,60 @@
+body {
+	background-color: #eeeeee;
+	height: 100%;
+	margin: 0%;
+}
+nav {
+	text-align: center;
+	float: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	height: 5%;
+}
+.navButton {
+	width: 33.33333333%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: none;
+	font-size: 250%;
+	font-family: verdana;
+	background-color: #dedede;
+}
+footer {
+	position: absolute;
+	bottom: 0%;
+	font-size: 150%;
+	text-align: center;
+}
+#copyrightLink {
+	display: inline;
+}
+#location {
+	font-size: 500%;
+	text-align: center;
+}
+
+article {
+	text-align: center;
+}
+
+#gevoelstemp {
+	font-size: 400%;
+}
+
+#windkracht {
+	font-size: 400%;
+}
+
+#article {
+	font-size: 450%;
+}
+
+#temp {
+	font-size: 400%;
+	display: inline;
+}
+
+div {
+	width: 100%;
+}
