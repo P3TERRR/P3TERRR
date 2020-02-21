@@ -799,3 +799,4 @@ function currentLocation_cityName(id) {
     xmlhttp_streetmap.open("GET", "https://nominatim.openstreetmap.org/reverse?format=json&lat=" + currentLat + "&lon=" + currentLon, false);
     xmlhttp_streetmap.send();
 }
+
