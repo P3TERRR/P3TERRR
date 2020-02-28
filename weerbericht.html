@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Weerinfo.nl</title>
+		<script type="text/javascript" src="instruct_buienradarLibrary_20200106.js"></script>
+		<script type="text/javascript">
+			function showWeatherInfo() {
+				forecast_title('titel')
+				forecast_text('voorspelling')
+				forecast_author('auteur')
+				forecast_longterm('langetermijnverwachting')
+			}
+		</script>
+	</head>
+	<body onload="loadBuienradarData(); getLocation();">
+		<nav>
+			<button type="button" class="navButton"><a href="index.html">Overzicht</a></button>
+			<button type="button" class="navButton"><a href="radar.html">Radar</a></button>
+			<button type="button" class="navButton"><a href="weerbericht.html">Weerbericht</a></button>
+		</nav>
+		<article>
+				<p id="titel"></p>
+				<p id="voorspelling"></p>
+				<p>Geschreven door: </p><p id="auteur"></p>
+				<p>Langetermijnverwachting</p>
+				<p id="langetermijnverwachting"></p>
+		</article>
+		<footer>
+			<p>&copy; 2020 Weerinfo.nl</p>
+			<p id="copyrightLink">&copy; Some rights reserved by </p><a href="Buienradar.nl">Buienradar.nl</a>
+		</footer>
+	</body>
+</html>
