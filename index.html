@@ -10,6 +10,9 @@
 				currentLocation_temperature("temperatuur");
 				currentLocation_stationFeelTemperature("gevoelstemp");
 				currentLocation_stationWindSpeedBft("windkracht");
+				currentLocation_stationDescription('weeromschrijving')
+				currentLocation_stationWindDirection('windrichting')
+				forecast_summary('kortWeerbericht')		
 			}
 		</script>
 	</head>
@@ -22,10 +25,16 @@
 		<article>
 			<div id="location"></div>
 			<p id="temp"><span id="temperatuur"></span>&deg;C</p>
+			<p id="weeromschrijving"></p>
 				<p id="article">Gevoelstemperatuur</p>
 			<div id="gevoelstemp"></div>
 				<p id="article">Windkracht</p>
 			<div id="windkracht"></div>
+				<p id="article">Windrichting</p>
+			<div id="windrichting"></div>
+				<p id="article">Kort weerbericht</p>
+			<p id="kortWeerbericht"></p>
+			<p>Lees <a href="weerbericht.html">hier</a> het hele weerbericht</p>
 		</article>
 		<footer>
 			<p>&copy; 2020 Weerinfo.nl</p>
